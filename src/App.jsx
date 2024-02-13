@@ -7,14 +7,16 @@ function App() {
   function handleClick() {
     setCounter(counter + 1)
   }
-  function handleClick2() {
-    setCounter(counter - 1)
-  }
   return (
     <>
-       <h1>{counter}</h1>
-      <button onClick={handleClick}>Oshirish</button>
-      <button onClick={handleClick2}>Kamaytirish</button>
+    <div className='mainPage'>
+      <div className='todoForm'> 
+       <form>
+        <input className='Todo-input' placeholder='Enter your tasks...' type="text" name="todo"/>
+        <button>Add</button>
+       </form>
+      </div>
+    </div>
     </>
   )
 }
