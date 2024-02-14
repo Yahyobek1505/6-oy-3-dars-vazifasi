@@ -2,12 +2,12 @@
   max-width: 1280px;
   margin: 0 auto;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.Todo-input{
+.Todo-input {
   width: 400px;
   height: 42px;
   font-size: 18px;
@@ -17,18 +17,38 @@
   margin-right: 10px;
   border: 1px solid #f5f3e0;
   box-shadow: 0 4px 4px #ccc;
+} 
+h1{
+  text-align: center;
+  margin: 20px;
 }
-.mainPage{
+.mainPage {
   width: 1140px;
   margin: 0 auto;
   background: #f5f3e0;
   height: 100vh;
   padding-top: 20px;
 }
-.todoForm{
+.todoForm {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-
 }
 
+.result {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+.result ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.result ul {
+  background: #fff;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  width: 800px;
+  margin: 0 auto;
+}
